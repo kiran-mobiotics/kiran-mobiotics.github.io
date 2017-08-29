@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'gotham_htf_medium';
+    font-family: 'gotham';
     src: url('fonts/gothamhtf-medium-webfont.eot');
     src: url('fonts/gothamhtf-medium-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/gothamhtf-medium-webfont.woff') format('woff'),
@@ -15,7 +15,7 @@ html {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    font-family: 'gotham_htf_medium', sans-serif
+    font-family: 'gotham', sans-serif
 }
 
 #main {
