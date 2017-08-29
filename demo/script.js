@@ -1,19 +1,25 @@
-function demo() {
+function mark() {
 
-    $('.watermark').watermark({
-        text: $('#version').val()+"\n"+$('#build').val(),
+    $('.fhd').watermark({
+        text: $('#version').val()+"&nbsp;"+$('#build').val(),
         textWidth: 100,
-        textColor: 'white',
-        textBg: 'rgba(0, 0, 0, 0)',
-        gravity: 's',
-        opacity: 1,
-        margin: 16
+        textSize: 26
+    });
+    $('.hd').watermark({
+        text: $('#version').val()+"&nbsp;"+$('#build').val(),
+        textWidth: 100,
+        textSize: 15
+    });
+    $('.sd').watermark({
+        text: $('#version').val()+"&nbsp;"+$('#build').val(),
+        textWidth: 100,
+        textSize: 13
     });
 
 }
 $(function () {
     $('#submit').on('click', function(e) {
         e.preventDefault();
-        demo();
+        mark();
     });
 });

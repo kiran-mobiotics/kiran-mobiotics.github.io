@@ -27,11 +27,11 @@
             textWidth: 130,
             textSize: 13,
             textColor: 'white',
-            textBg: 'rgba(0, 0, 0, 0.4)',
+            textBg: 'rgba(0, 0, 0, 0.0)',
 
-            gravity: 'se', // nw | n | ne | w | e | sw | s | se
-            opacity: 0.7,
-            margin: 0,
+            gravity: 's', // nw | n | ne | w | e | sw | s | se
+            opacity: 1,
+            margin: 20,
             fullOverlay: false,
 
             outputWidth: 'auto',
