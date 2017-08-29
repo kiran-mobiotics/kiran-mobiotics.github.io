@@ -1,7 +1,7 @@
 function demo() {
 
     $('.watermark').watermark({
-        text: 'GOOGLE.COM',
+        text: $('#version').val(),
         textWidth: 100,
         gravity: 's',
         opacity: 1,
@@ -10,5 +10,8 @@ function demo() {
 
 }
 $(function () {
-    demo();
+    $('#submit').on('click', function(e) {
+        e.preventDefault();
+        demo();
+    });
 });
