@@ -31,7 +31,7 @@
 
             gravity: 's', // nw | n | ne | w | e | sw | s | se
             opacity: 1,
-            margin: 20,
+            margin: 100,
             fullOverlay: false,
 
             outputWidth: 'auto',
