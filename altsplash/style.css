@@ -17,7 +17,9 @@ html {
     padding: 0;
     font-family: 'gotham', sans-serif
 }
-
+p{
+    text-align: center;
+}
 #main {
     min-height: 100%
 }
