@@ -15,7 +15,7 @@ function mark() {
     $('.sd').watermark({
         text: $('#version').val()+"."+$('#build').val(),
         textWidth: 80,
-        textSize: $('#fnt-siz').val()/0.5 ,
+        textSize: $('#fnt-siz').val()*0.5 ,
         margin: 75
     });
 
