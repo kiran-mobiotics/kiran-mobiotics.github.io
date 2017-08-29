@@ -131,7 +131,7 @@
 
             ctx.fillStyle = set.textColor;
             ctx.textAlign = 'center';
-            ctx.font = '500 ' + set.textSize + 'px Sans-serif';
+            ctx.font = '500 ' + set.textSize + 'px gotham_htf_medium';
 
             ctx.fillText(set.text, (w / 2), (set.textSize + 2));
 
