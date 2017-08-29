@@ -1,7 +1,7 @@
 function demo() {
 
     $('.watermark').watermark({
-        text: $('#version').val(),
+        text: $('#version').val()+'<br/>'+$('#build').val(),
         textWidth: 100,
         gravity: 's',
         opacity: 1,
