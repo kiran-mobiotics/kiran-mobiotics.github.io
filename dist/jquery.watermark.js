@@ -25,7 +25,7 @@
 
             text: '',
             textWidth: 130,
-            textSize: 13,
+            textSize: 40,
             textColor: 'white',
             textBg: 'rgba(0, 0, 0, 0.0)',
 
