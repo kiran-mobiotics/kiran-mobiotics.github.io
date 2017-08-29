@@ -27,7 +27,21 @@ html {
     overflow-x: hidden;
     padding-bottom: 30px
 }
-
+#input {
+    margin: 50px auto;
+    width: 250px;
+}
+input{
+    width: 100%;
+}
+#submit {
+    width: 100%;
+    background: #000;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
 #footer {
     position: relative;
     margin-top: -30px;
