@@ -1,5 +1,5 @@
 function demo() {
-    var inputImages = ['http://i.imgur.com/AAPx3rB.jpg', 'http://i.imgur.com/39dfdPw.jpg'];
+    var inputImages = ['https://i.imgur.com/AAPx3rB.jpg', 'https://i.imgur.com/39dfdPw.jpg'];
     $.each(inputImages, function (i, v) {
         $('<img>', {
             src: v
@@ -13,18 +13,11 @@ function demo() {
     $('.watermark').watermark({
         text: 'GOOGLE.COM',
         textWidth: 100,
-        gravity: 'w',
+        gravity: 's',
         opacity: 1,
         margin: 12
     });
 
-    $('.watermark2').watermark({
-        path: 'http://i.imgur.com/h0trtqE.jpg',
-        margin: 0,
-        gravity: 'nw',
-        opacity: 0.5,
-        outputWidth: 400
-    });
 }
 $(function () {
     demo();
